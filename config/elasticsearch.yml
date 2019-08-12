@@ -1,0 +1,10 @@
+cluster.name: elasticsearch_stevenchen
+
+network.host: 0.0.0.0
+
+path:
+  data: /elasticsearch/data
+  logs: /elasticsearch/log
+
+cluster.routing.allocation.enable: all
+discovery.type: single-node
