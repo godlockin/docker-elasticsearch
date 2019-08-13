@@ -18,7 +18,7 @@ RUN echo vm.max_map_count = 655360 >> /etc/sysctl.conf \
 
 # Install Elasticsearch.
 RUN yum install -y wget \
-    && wget -c https://artifacts.elastic.co/downloads/elasticsearch/$ES_PKG_FILE_NAME.tar.gz / \
+    && wget -c https://artifacts.elastic.co/downloads/elasticsearch/$ES_PKG_FILE_NAME.tar.gz \
     && tar vxf $ES_PKG_FILE_NAME.tar.gz
 
 # ADD elasticsearch-7.2.0-linux-x86_64.tar.gz /
