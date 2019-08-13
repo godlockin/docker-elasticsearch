@@ -5,7 +5,7 @@ MAINTAINER godlockin <stevenchenworking@gmail.com>
 
 ENV ES_VERSION 7.2.0
 ENV ES_PKG_NAME elasticsearch-$ES_VERSION
-#ENV ES_PKG_FILE_NAME $ES_PKG_NAME-linux-x86_64
+ENV ES_PKG_FILE_NAME $ES_PKG_NAME-linux-x86_64
 
 ENV JAVA_HOME=/usr/lib/jvm/java-openjdk
 ENV PATH=$PATH:$JAVA_HOME/bin:.
